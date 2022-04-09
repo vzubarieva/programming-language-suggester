@@ -13,94 +13,97 @@
 
 <body>
 
-  <div class="container">
+  <div class="container d-flex flex-column align-items-center justify-content-center" >
     <h1>Programming language suggester</h1>
     <form id="survey">
       <p>What programming language is the best for you?</p>
       <div class="form-group">
-        <label for="input1">Do you want to work in a big company?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="yes">
+        <label for="input1" class="h4">Do you want to work in a big company?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question1" value="yes">
+          <label class="form-check-label">
             yes
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="no">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question1" value="no">
+          <label class="form-check-label">
             no
           </label>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="input2">Do you want to learn language that runs in all browsers?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="yes">
+        <label for="input2" class="h4">Do you want to learn language that runs in all browsers?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question2" value="yes">
+          <label class="form-check-label">
             yes
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="no">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question2" value="no">
+          <label class="form-check-label">
             no
           </label>
         </div>
       </div>
       <div class="form-group">
-        <label for="input3">Do you use Airbnb or Github websites?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="yes">
+        <label for="input3" class="h4">Do you use Airbnb or Github websites?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question3" value="yes">
+          <label class="form-check-label">
             yes
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="no">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question3" value="no">
+          <label class="form-check-label">
             no
           </label>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="input4">Do you want to be a happy programmer?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="yes">
+        <label for="input4" class="h4">Do you want to be a happy programmer?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question4" value="yes">
+          <label class="form-check-label">
             yes
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="no">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question4" value="no">
+          <label class="form-check-label">
             no
           </label>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="input5">Do you like surprises?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="yes">
+        <label for="input5" class="h4">Do you like surprises?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" value="yes">
+          <label class="form-check-label">
             yes
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="no">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" value="no">
+          <label class="form-check-label">
             no
           </label>
         </div>
       </div>
-      <button type="submit" class="btn">Show me the truth!</button>
+      <div class="d-flex flex-row  mb-3 mt-3 align-items-center">
+        <button type="submit" class="btn btn-primary ">Show me the truth!</button>
+        <h6 id="output" class="ms-3"></h6>
+      </div>
+      
     </form>
+   
   </div>
 
-
-  <div id="output"></div>
 
 </body>
 

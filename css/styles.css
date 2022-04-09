@@ -1,3 +1,12 @@
 .form-group {
   padding-top: 20px;
 }
+
+h1 {
+  color:blueviolet;
+}
+
+#output {
+  color:blueviolet;
+  
+}
