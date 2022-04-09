@@ -12,89 +12,96 @@
 </head>
 
 <body>
+
   <div class="container">
     <h1>Programming language suggester</h1>
-    <form id="suggester">
+    <form id="survey">
       <p>What programming language is the best for you?</p>
       <div class="form-group">
         <label for="input1">Do you want to work in a big company?</label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="yes" checked>
-          yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="no">
-          no
-        </label>
-      </div>
-
-      <label for="input2">Do you want to learn language that runs in all browsers?</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="yes" checked>
-          yes
-        </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="yes">
+            yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="no">
+            no
+          </label>
+        </div>
       </div>
 
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="no">
-          no
-        </label>
+      <div class="form-group">
+        <label for="input2">Do you want to learn language that runs in all browsers?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="yes">
+            yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="no">
+            no
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="input3">Do you use Airbnb or Github websites?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="yes">
+            yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="no">
+            no
+          </label>
+        </div>
       </div>
 
-      <label for="input3">Do you use Airbnb or Github websites?</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="yes" checked>
-          yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="no">
-          no
-        </label>
-      </div>
-
-      <label for="input4">Do you want to be a happy programmer?</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="yes" checked>
-          yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="no">
-          no
-        </label>
+      <div class="form-group">
+        <label for="input4">Do you want to be a happy programmer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="yes">
+            yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="no">
+            no
+          </label>
+        </div>
       </div>
 
-      <label for="input5">Do you like surprises?</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="yes" checked>
-          yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="no">
-          no
-        </label>
+      <div class="form-group">
+        <label for="input5">Do you like surprises?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="yes">
+            yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="no">
+            no
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn">Show me the truth!</button>
-
     </form>
-    <div id="output">
-
-    </div>
   </div>
+
+
+  <div id="output"></div>
+
 </body>
 
 </html>
