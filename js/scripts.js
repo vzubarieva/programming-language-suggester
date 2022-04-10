@@ -8,11 +8,11 @@ $(document).ready(function() {
     const question5 = $("input:radio[name=question5]:checked").val();
     let result;
     if (question1 === "yes") {
-       result = "Your first programming language is C#";
+       result = "Your first best programming language to learn is C#";
     } else if (question2, question5 === "yes") {
        result = "Your first best programming language to learn is JavaScript";
     } else  {
-       result = "Your best programming language to learn is Ruby";
+       result = "Your first best programming language to learn is Ruby";
     }
     $("#output").text(result);
   });
