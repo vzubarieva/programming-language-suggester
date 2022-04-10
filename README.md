@@ -5,7 +5,7 @@
 
  This survey website for people interested in coding to decide which language they should learn first. User can simply answer all questions by clicking the yes or no buttons and get the answer. By answering provided questions, survey will help beginners to understand what programming language (C#, JavaScript or Ruby) suits better for them.
 
-[GitHub pages]()
+[GitHub pages](https://vzubarieva.github.io/programming-language-suggester)
 ## Technologies Used
 
 * _HTML_
