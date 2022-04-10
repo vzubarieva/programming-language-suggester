@@ -2,11 +2,6 @@
   padding-top: 20px;
 }
 
-h1 {
+h1, #output {
   color:blueviolet;
-}
-
-#output {
-  color:blueviolet;
-  
 }
